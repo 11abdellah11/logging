@@ -2,7 +2,7 @@
 
 import os
 import logging
-
+# Instead of using bascconfig we creat a  logger from scratch
 logger=logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 f=logging.Formatter('%(asctime)s:%(name)s:%(levelname)s:%(message)s')
